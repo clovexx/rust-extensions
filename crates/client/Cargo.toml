@@ -28,6 +28,7 @@ prost-types.workspace = true
 tokio = { workspace = true, optional = true }
 tonic.workspace = true
 tower = { workspace = true, optional = true }
+hyper-util = "0.1.6" # https://github.com/hyperium/hyper/issues/3110 
 
 [build-dependencies]
 tonic-build.workspace = true
