@@ -20,6 +20,7 @@
 #![allow(clippy::derive_partial_eq_without_eq)]
 
 pub use tonic;
+pub use prost_types;
 
 /// Generated `containerd.types` types.
 pub mod types {
